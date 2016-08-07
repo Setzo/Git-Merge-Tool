@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd">
+
+
+	<context:annotation-config></context:annotation-config>
+
+	<aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+
+	<bean id="mainFrame" name="mainFrame" class="com.wpruszak.blitzch.view.MainFrame">
+	</bean>
+	<bean id="optionPanel" name="optionPanel"
+		class="com.wpruszak.blitzch.view.OptionPanel">
+	</bean>
+	<bean id="comparePanel" name="comparePanel"
+		class="com.wpruszak.blitzch.view.ComparePanel">
+	</bean>
+	<bean id="scrollableSyntaxTextArea" name="scrollableSyntaxTextArea"
+		class="com.wpruszak.blitzch.view.text.ScrollableSyntaxTextArea"
+		scope="prototype">
+	</bean>
+	<bean id="syntaxTextArea" name="syntaxTextArea"
+		class="com.wpruszak.blitzch.view.text.SyntaxTextArea"
+		scope="prototype">
+	</bean>
+
+	<bean id="automaticConflictSolutionFinderImpl" name="automaticConflictSolutionFinderImpl"
+		class="com.wpruszak.blitzch.lib.AutomaticConflictSolutionFinderImpl">
+	</bean>
+	<bean id="interactiveConflictSolutionFinderImpl" name="interactiveConflictSolutionFinderImpl"
+		class="com.wpruszak.blitzch.lib.InteractiveConflictSolutionFinderImpl">
+	</bean>
+
+	<bean id="fileLoaderImpl" name="fileLoaderImpl"
+		class="com.wpruszak.blitzch.lib.FileLoaderImpl">
+	</bean>
+	<bean id="fileSaverImpl" name="fileSaverImpl"
+		class="com.wpruszak.blitzch.lib.FileSaverImpl">
+	</bean>
+
+	<bean id="conflictController" name="conflictController"
+		class="com.wpruszak.blitzch.controller.ConflictController">
+	</bean>
+	<bean id="iOController" name="iOController"
+		class="com.wpruszak.blitzch.controller.IOController">
+	</bean>
+	
+	<bean id="completeLanguageSupportFactory" name="completeLanguageSupportFactory"
+		class="com.wpruszak.blitzch.lib.factories.impl.CompleteLanguageSupportFactoryImpl">
+	</bean>
+
+</beans>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="com.wpruszak.blitzch.view.MainFrame" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/view/MainFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="295" width="715" x="1221" y="228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.wpruszak.blitzch.view.OptionPanel" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/view/OptionPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="457" width="314" x="41" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.wpruszak.blitzch.view.ComparePanel" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/view/ComparePanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="349" width="351" x="1282" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.wpruszak.blitzch.view.text.ScrollableSyntaxTextArea" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/view/text/ScrollableSyntaxTextArea.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="169" width="303" x="1588" y="970"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.wpruszak.blitzch.view.text.SyntaxTextArea" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/view/text/SyntaxTextArea.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="259" width="303" x="2048" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.wpruszak.blitzch.view.listeners.SubmitButtonListener" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/view/listeners/SubmitButtonListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="175" x="41" y="1748"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="com.wpruszak.blitzch.view.listeners.FileBeanEditListener" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/view/listeners/FileBeanEditListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="193" x="902" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="com.wpruszak.blitzch.view.listeners.UserInputListener" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/view/listeners/UserInputListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="157" x="416" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="com.wpruszak.blitzch.main.Invoke" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/main/Invoke.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="151" width="214" x="1221" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.wpruszak.blitzch.lib.InteractiveConflictSolutionFinderImpl" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/InteractiveConflictSolutionFinderImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="169" width="266" x="456" y="970"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.wpruszak.blitzch.lib.FileSaverImpl" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/FileSaverImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="229" x="2585" y="970"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.wpruszak.blitzch.lib.FileLoaderImpl" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/FileLoaderImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="241" width="266" x="2279" y="970"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.wpruszak.blitzch.lib.AutomaticConflictSolutionFinderImpl" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/AutomaticConflictSolutionFinderImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="169" width="261" x="162" y="228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="com.wpruszak.blitzch.lib.interfaces.ConflictGetter" 
+    project="BlitzCompanyHelper" file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/interfaces/ConflictGetter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="193" x="202" y="970"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="15" language="java" name="com.wpruszak.blitzch.lib.interfaces.ConflictResolver" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/interfaces/ConflictResolver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="133" width="333" x="867" y="970"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="16" language="java" name="com.wpruszak.blitzch.lib.interfaces.ConflictSolutionFinder" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/interfaces/ConflictSolutionFinder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="228" x="634" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="com.wpruszak.blitzch.lib.interfaces.FileLoader" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/interfaces/FileLoader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="151" width="266" x="1431" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="com.wpruszak.blitzch.lib.interfaces.FileSaver" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/interfaces/FileSaver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="229" x="1779" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="com.wpruszak.blitzch.lib.factories.CompleteLanguageSupportFactory" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/factories/CompleteLanguageSupportFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="384" x="1694" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="com.wpruszak.blitzch.lib.factories.impl.CompleteLanguageSupportFactoryImpl" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/lib/factories/impl/CompleteLanguageSupportFactoryImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="313" width="384" x="2099" y="228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.wpruszak.blitzch.controller.IOController" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/controller/IOController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="205" width="266" x="1261" y="970"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.wpruszak.blitzch.controller.ConflictController" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/controller/ConflictController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="331" width="386" x="785" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.wpruszak.blitzch.beans.FileBean" project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/beans/FileBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="385" width="265" x="1221" y="1748"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.wpruszak.blitzch.beans.CompleteLanguageSupportBean" 
+    project="BlitzCompanyHelper" 
+    file="/BlitzCompanyHelper/src/com/wpruszak/blitzch/beans/CompleteLanguageSupportBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="205" width="308" x="1931" y="970"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="25">    
+    <bendpoint x="1251" y="581"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="26" name="ioController"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="29" name="fileSaver"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="31">    
+    <bendpoint x="836" y="970"/>    
+    <bendpoint x="1125" y="1251"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="32">    
+    <bendpoint x="1230" y="581"/>    
+    <bendpoint x="1230" y="970"/>    
+    <bendpoint x="1230" y="1251"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="33" name="currentDirList"/>      
+      <multiplicity id="34" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="35">    
+    <bendpoint x="1748" y="1251"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="36">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="37" name="mainFrame"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="39">    
+    <bendpoint x="1557" y="970"/>    
+    <bendpoint x="1400" y="1251"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="40">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="41" name="fileBeanEditListener"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="43">    
+    <bendpoint x="171" y="581"/>    
+    <bendpoint x="171" y="970"/>    
+    <bendpoint x="385" y="1251"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <realization id="45">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <realization id="46">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <dependency id="47">    
+    <bendpoint x="1251" y="1251"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <realization id="48">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="49">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="50" name="scrollableSyntaxTextAreaNew"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="53">    
+    <bendpoint x="1663" y="581"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="54" name="scrollableSyntaxTextArea"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="57" name="languageFactory"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="60" name="submitButtonListener"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <bendpoint x="1727" y="1251"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="63" name="currentlyUsedFile"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="65">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="66">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="67" name="comparePanel"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="69">    
+    <bendpoint x="111" y="581"/>    
+    <bendpoint x="111" y="970"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="70">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="71">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <association id="72">    
+    <bendpoint x="773" y="970"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="73" name="interactiveSolutionFinder"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="76">    
+    <bendpoint x="815" y="970"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="77">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="78" name="scrollableSyntaxTextAreaOld"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="80">    
+    <bendpoint x="603" y="1251"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="81">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="82" name="fileLoader"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="84">    
+    <bendpoint x="425" y="970"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <realization id="85">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="86">    
+    <bendpoint x="192" y="581"/>    
+    <bendpoint x="150" y="970"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="87" name="optionPanel"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="90">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <realization id="91">    
+    <bendpoint x="752" y="581"/>    
+    <bendpoint x="752" y="970"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <dependency id="92">    
+    <bendpoint x="2108" y="581"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <association id="93">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="94" name="userInputListener"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <bendpoint x="794" y="970"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="97" name="automaticSolutionFinder"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <bendpoint x="1201" y="581"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="100" name="conflictController"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="103" name="ioController"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="105">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="106" name="syntaxTextArea"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="108">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="109">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="110">    
+    <bendpoint x="1146" y="1251"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

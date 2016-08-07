@@ -1,0 +1,15 @@
+
+com.wpruszak.blitzch
+com.wpruszak.blitzch.beans
+com.wpruszak.blitzch.config
+com.wpruszak.blitzch.controller
+com.wpruszak.blitzch.images
+com.wpruszak.blitzch.lib
+com.wpruszak.blitzch.lib.factories
+com.wpruszak.blitzch.lib.factories.impl
+com.wpruszak.blitzch.lib.interfaces
+com.wpruszak.blitzch.main
+com.wpruszak.blitzch.view
+com.wpruszak.blitzch.view.listeners
+com.wpruszak.blitzch.view.text
+rsta.themes

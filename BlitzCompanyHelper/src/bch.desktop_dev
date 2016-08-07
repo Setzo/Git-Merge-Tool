@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Blitz Company Helper
+Comment=
+Exec=java -jar /home/setzo/Programy/BlitzCompanyHelper/bch.jar
+Icon=/home/setzo/Programy/BlitzCompanyHelper/blitz.png
+Terminal=false
+Type=Application
+StartupNotify=true
